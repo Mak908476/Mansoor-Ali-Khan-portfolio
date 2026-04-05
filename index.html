@@ -8,42 +8,54 @@
 </head>
 <body>
 
-<!-- HERO SECTION -->
+<!-- NAVBAR -->
+<nav>
+    <h2>Mansoor</h2>
+    <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+    </ul>
+</nav>
+
+<!-- HERO -->
 <section class="hero">
     <h1>Mansoor Ali Khan</h1>
     <p>Data Engineer | Azure | PySpark | SQL</p>
-    <p>Building scalable data pipelines processing 1M+ records daily</p>
+    <div class="buttons">
+        <a href="https://github.com/Mak908476" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/mansooralikhan04" target="_blank">LinkedIn</a>
+    </div>
 </section>
 
 <!-- ABOUT -->
-<section>
+<section id="about">
     <h2>About Me</h2>
-    <p>Data Engineer with 3+ years experience in building scalable ETL pipelines using Azure, Databricks, and PySpark.</p>
+    <p>Data Engineer with 3+ years of experience building scalable data pipelines using Azure, Databricks, and PySpark. Processed 1M+ records daily.</p>
 </section>
 
 <!-- SKILLS -->
-<section>
+<section id="skills">
     <h2>Skills</h2>
-    <ul>
-        <li>Python, SQL, PySpark</li>
-        <li>Azure Data Factory, ADLS, Synapse</li>
-        <li>Databricks, Snowflake</li>
-        <li>Power BI, Tableau</li>
-    </ul>
+    <div class="card">
+        <p>Python, SQL, PySpark</p>
+        <p>Azure Data Factory, ADLS, Synapse</p>
+        <p>Databricks, Snowflake</p>
+        <p>Power BI, Tableau</p>
+    </div>
 </section>
 
 <!-- PROJECTS -->
-<section>
+<section id="projects">
     <h2>Projects</h2>
-    <h3>SQL Data Warehouse Project</h3>
-    <p>Built Medallion Architecture (Bronze, Silver, Gold layers) for analytics.</p>
-    <p>Designed star schema for reporting and insights.</p>
-</section>
 
-<!-- CONTACT -->
-<section>
-    <h2>Contact</h2>
-    <p>Email: mansooralikhan9084@gmail.com</p>
+    <div class="project-card">
+        <h3>SQL Data Warehouse Project</h3>
+        <p>Built Medallion Architecture (Bronze, Silver, Gold layers).</p>
+        <p>Designed star schema for analytics.</p>
+        <a href="https://github.com/Mak908476/sql-data-warehouse-project" target="_blank">View Project</a>
+    </div>
+
 </section>
 
 </body>
