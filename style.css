@@ -60,3 +60,42 @@ section {
     border-radius: 10px;
     margin-top: 20px;
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Navbar hover */
+nav a:hover {
+    color: #38bdf8;
+}
+
+/* Button upgrade */
+.buttons a {
+    margin: 10px;
+    padding: 12px 25px;
+    background: linear-gradient(to right, #3b82f6, #06b6d4);
+    color: white;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.buttons a:hover {
+    transform: scale(1.1);
+}
+
+/* Card hover */
+.project-card {
+    transition: 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+}
+
+/* Glow effect */
+h2 {
+    color: #38bdf8;
+    text-shadow: 0 0 10px #38bdf8;
+}

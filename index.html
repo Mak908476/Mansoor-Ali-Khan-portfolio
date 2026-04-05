@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mansoor | Data Engineer</title>
     <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
 
@@ -19,7 +21,7 @@
 </nav>
 
 <!-- HERO -->
-<section class="hero">
+<section class="hero" data-aos="fade-up">
     <h1>Mansoor Ali Khan</h1>
     <p>Data Engineer | Azure | PySpark | SQL</p>
     <div class="buttons">
@@ -29,13 +31,13 @@
 </section>
 
 <!-- ABOUT -->
-<section id="about">
+<section id="about" data-aos="fade-right">
     <h2>About Me</h2>
     <p>Data Engineer with 3+ years of experience building scalable data pipelines using Azure, Databricks, and PySpark. Processed 1M+ records daily.</p>
 </section>
 
 <!-- SKILLS -->
-<section id="skills">
+<section id="skills" data-aos="fade-left">
     <h2>Skills</h2>
     <div class="card">
         <p>Python, SQL, PySpark</p>
@@ -46,7 +48,7 @@
 </section>
 
 <!-- PROJECTS -->
-<section id="projects">
+<section id="projects" data-aos="zoom-in">
     <h2>Projects</h2>
 
     <div class="project-card">
@@ -57,6 +59,10 @@
     </div>
 
 </section>
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 
 </body>
 </html>
