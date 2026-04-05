@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background-color: #0f172a;
+    color: white;
+}
+
+section {
+    padding: 40px;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: linear-gradient(to right, #3b82f6, #06b6d4);
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    color: #38bdf8;
+}
+
+ul li {
+    margin: 10px 0;
+}
